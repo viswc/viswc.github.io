@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/app.css">
   </head>
-  <body>
+  <body onload="RemoveElement()">
     <div class="loading-screen">
       <div class="inner">
         <div class="text-box">
@@ -236,7 +236,7 @@
                     <p class="color-white m-b-1">Safeguard Sykaa's assets</p>
                     <p class="small">We responsibly use and protect Sykaa's 
                          assets and resources, so we can create 
-                         real value for the world</p>
+                         real value for the world.</p>
                   </div>
                 </div>
               </div>
@@ -304,7 +304,8 @@
                       <div class="info-content">
                         <h3 class="m-b-3">Experience the connection</h3>
                         <div class="seperator-line m-b-3"></div>
-                        <p>A next-generation extendible ecosystem which builds technologies that help people connect, find communities and grow businesses. Sykaa Platforms is currently in build progress and will be launched soon.</p>
+                        <p>A next-generation extendible ecosystem that builds technologies that help people connect, find communities, and grow
+                        businesses. Sykaa Platforms is currently in construction and will be launched soon.</p>
                       </div>
                     </div>
                   </div>
@@ -329,7 +330,7 @@
                   <div class="item noselect m-t-6 work-lightbox scroll-animation">
                     <div class="icon-button"><span class="ti-arrow-right"></span></div>
                     <div class="info">
-                      <p class="color-white">Cera advertising</p>
+                      <p class="color-white">CodeStream</p>
                       <div class="seperator-line m-t-1"></div>
                     </div>
                     <div class="cover" style="background-image: url(assets/images/work/item-3/preview.jpg);"></div>
@@ -340,9 +341,18 @@
                         <div class="item" data-image="assets/images/work/item-3/3.jpg"></div>
                       </div>
                       <div class="info-content">
-                        <h3 class="m-b-3">Experience the bliss of advertisement</h3>
+                        <h3 class="m-b-3">Experience the bliss of coding architecture</h3>
                         <div class="seperator-line m-b-3"></div>
-                        <p>Cera takes advertisement to a whole new level away from online branding, focusing highly on face-to-face sequel. It's entire transactions and deployment will be done through the platform itself.</p>
+                        <p>A captivating enigma, CSI whispers incantations to transform mere snippets into living, breathing creations. It's the
+                        invisible brushstroke that paints seamless bridges between codes and clouds, harmonizing the rhythm of development and
+                        the cadence of deployment.</p>
+                        <div class="seperator-line m-b-3 m-t-3"></div>
+                        <button class="default-button m-b-1" href="#">
+                          <span class="button-text">More about CSI</span>
+                          <span class="icon-button m-l-1-5">
+                            <span class="ti-arrow-right icon"></span>
+                          </span>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -561,5 +571,14 @@
       </div>
     </div>
     <script src="assets/js/app.js"></script>
+    <script>
+      function RemoveElement() {
+        var className = "open-options-panel";
+        const elements = document.getElementsByClassName(className);
+        while (elements.length > 0) {
+          elements[0].parentNode.removeChild(elements[0]);
+        }
+      }
+    </script>
   </body>
 </html>
