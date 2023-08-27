@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      About TEVx Foundation - Creating Solutions that Empower, Inspire and
+      Transform.
+    </title>
+
+    <link rel="preload" href="assets/css/app.css" as="style" />
+    <link rel="preload" href="assets/js/scripts.js" as="script" />
+    <link
+      rel="preload"
+      href="assets/img/general/Sykaa-logo-big.png"
+      as="image"
+    />
+
+    <link
+      rel="preload"
+      href="assets/fonts/Graphik-Semibold-Web.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/Graphik-Medium-Web.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/Graphik-Extralight-Web.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/Graphik-Bold-Web.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/Graphik-Light-Web.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/Graphik-Regular-Web.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <script defer src="assets/js/scripts.js"></script>
+  </head>
+
+  <body class="is-loading">
+    <div class="cursor" data-cursor>
+      <div class="inner">
+        <div class="circle">
+          <span class="cursor_text"></span>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="header-wrap">
+        <a
+          href="index.html"
+          class="logo"
+          id="main-logo"
+          title="TEVx Foundation"
+        >
+          <img
+            src="assets/img/general/Sykaa-logo-big.png"
+            title="TEVx Foundation."
+            height="20px"
+          />
+          <span>Digital</span>
+        </a>
+      </div>
+
+      <div class="nav-menu" id="nav">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="text">Menu</span>
+      </div>
+    </header>
+    <div class="menu-cover" id="menu-cover"></div>
+
+    <div class="menu__bg">
+      <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <radialGradient
+            id="Gradient1"
+            cx="50%"
+            cy="50%"
+            fx="10%"
+            fy="50%"
+            r=".5"
+          >
+            <animate
+              attributeName="fx"
+              dur="64s"
+              values="0%;3%;0%"
+              repeatCount="indefinite"
+            />
+            <stop offset="0%" stop-color="#777" />
+            <stop offset="100%" stop-color="#0000" />
+          </radialGradient>
+          <radialGradient
+            id="Gradient2"
+            cx="50%"
+            cy="50%"
+            fx="10%"
+            fy="50%"
+            r=".5"
+          >
+            <animate
+              attributeName="fx"
+              dur="47s"
+              values="0%;3%;0%"
+              repeatCount="indefinite"
+            />
+            <stop offset="0%" stop-color="#000" />
+            <stop offset="100%" stop-color="#8880" />
+          </radialGradient>
+          <radialGradient
+            id="Gradient3"
+            cx="50%"
+            cy="50%"
+            fx="50%"
+            fy="50%"
+            r=".5"
+          >
+            <animate
+              attributeName="fx"
+              dur="43s"
+              values="0%;3%;0%"
+              repeatCount="indefinite"
+            />
+            <stop offset="0%" stop-color="#000" />
+            <stop offset="100%" stop-color="#0000" />
+          </radialGradient>
+        </defs>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient1)">
+          <animate
+            attributeName="x"
+            dur="40s"
+            values="25%;0%;25%"
+            repeatCount="indefinite"
+          />
+          <animate
+            attributeName="y"
+            dur="42s"
+            values="0%;25%;0%"
+            repeatCount="indefinite"
+          />
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 50 50"
+            to="360 50 50"
+            dur="34s"
+            repeatCount="indefinite"
+          />
+        </rect>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient2)">
+          <animate
+            attributeName="x"
+            dur="46s"
+            values="-25%;0%;-25%"
+            repeatCount="indefinite"
+          />
+          <animate
+            attributeName="y"
+            dur="48s"
+            values="0%;50%;0%"
+            repeatCount="indefinite"
+          />
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 50 50"
+            to="360 50 50"
+            dur="36s"
+            repeatCount="indefinite"
+          />
+        </rect>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient3)">
+          <animate
+            attributeName="x"
+            dur="50s"
+            values="0%;25%;0%"
+            repeatCount="indefinite"
+          />
+          <animate
+            attributeName="y"
+            dur="52s"
+            values="0%;25%;0%"
+            repeatCount="indefinite"
+          />
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="360 50 50"
+            to="0 50 50"
+            dur="38s"
+            repeatCount="indefinite"
+          />
+        </rect>
+      </svg>
+    </div>
+
+    <nav id="menuNav" class="menu">
+      <div class="menu_content menu__hover">
+        <ol>
+          <li class="menu__item" data-img="/assets/img/general/menu_home.jpg">
+            <a href="index.html" class="inner_link">
+              <span class="menu__item-text"
+                ><span class="menu__item-textinner">Home <sup></sup></span
+              ></span>
+            </a>
+          </li>
+
+          <li class="menu__item" data-img="/assets/img/general/menu_works.jpg">
+            <a href="works.html" class="inner_link">
+              <span class="menu__item-text"
+                ><span class="menu__item-textinner">Works</span></span
+              >
+            </a>
+          </li>
+
+          <li class="menu__item" data-img="/assets/img/general/menu_about.jpg">
+            <a href="about.html" class="inner_link">
+              <span class="menu__item-text"
+                ><span class="menu__item-textinner">About <sup></sup></span
+              ></span>
+            </a>
+          </li>
+        </ol>
+      </div>
+    </nav>
+
+    <div id="load_overlay" class="load_overlay"></div>
+
+    <div id="dynamicLoad" class="dynamic_load">
+      <div class="progress">
+        <div class="bar" id="dynamicBar"></div>
+      </div>
+    </div>
+
+    <div id="barba-wrapper">
+      <div class="barba-container">
+        <div data-scroll-container>
+          <main id="main">
+            <div class="header_animate header_animate_pre" data-scroll-section>
+              <section class="section section__header img_brightness">
+                <div class="pre_animate">
+                  <div class="q-container container-inner">
+                    <div class="columns short_container">
+                      <div class="column menu_fade">
+                        <h2 class="xlarge">
+                          <span class="reveal_wrap"
+                            ><span class="pre_reveal">H</span></span
+                          >
+                          <span class="reveal_wrap"
+                            ><span class="pre_reveal">e</span></span
+                          >
+                          <span class="reveal_wrap"
+                            ><span class="pre_reveal">l</span></span
+                          >
+                          <span class="reveal_wrap"
+                            ><span class="pre_reveal">l</span></span
+                          >
+                          <span class="reveal_wrap"
+                            ><span class="pre_reveal">o</span></span
+                          >
+                          <span class="reveal_wrap"
+                            ><span class="pre_reveal">.</span></span
+                          >
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="q-container container-inner">
+                  <div class="columns short_container">
+                    <div class="column menu_fade">
+                      <h6 class="font_caps" data-splitting>/ About TEVx</h6>
+                      <h1 class="lead" data-splitting>
+                        We create innovative<br />
+                        Solutions that make a <br />
+                        difference at Global Scale.
+                      </h1>
+                    </div>
+                  </div>
+
+                  <div class="columns short_container menu_fade reveal_fade">
+                    <div class="column q-1-3">
+                      <div
+                        class="ornament static pt"
+                        data-scroll
+                        data-scroll-speed="-0.3"
+                        data-scroll-offset="-100%,-200%"
+                      >
+                        <img
+                          src="assets/img/general/ornament.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="column q-2-3">
+                      <p class="lead pt">
+                        Powered by
+                        <a href="#Sykaa" title="Sykaa Platforms"
+                          >Sykaa Platforms</a
+                        >, TEVx delivers on its mission to build a brighter
+                        future for everyone. Our focus has always been to create
+                        enjoyable, intuitive, engaging and remarkable experience
+                        for people — that's what sets us apart from everyone
+                        else.<br /><br />
+                      </p>
+                      <a >
+                        <picture>
+                          <source
+                            type="image/webp"
+                            srcset="../assets/img/general/Sykaa-ico-logo.png"
+                          />
+                          <img
+                            src="assets/img/general/Sykaa-ico-logo.png"
+                            class="nomination"
+                          />
+                        </picture>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <section class="section no-p img_brightness" data-scroll-section>
+              <div
+                class="full_banner wide reveal zoom_scroll mobile_bottom"
+                data-scroll
+              >
+                <div class="scrollanim_clip">
+                  <!-- image_reveal -->
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="./assets/img/about/expertise2.webp"
+                    />
+                    <img
+                      data-scroll
+                      data-scroll-speed="-6"
+                      src="assets/img/about/expertise2.jpg"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </section>
+
+            <section
+              class="section small-pb x_hide color_creme"
+              data-scroll-section
+            >
+              <div
+                class="q-container container-inner menu_fade"
+                data-scroll
+                data-scroll-call="revStag"
+                data-scroll-offset="10%"
+              >
+                <div class="columns short_container">
+                  <div class="column q-2-3">
+                    <span class="font_caps" data-splitting
+                      >/ Our Creations</span
+                    >
+                    <h3 data-splitting>
+                      Elevating Tech through innovation in Digital
+                      Transformation.
+                    </h3>
+                  </div>
+                </div>
+                <div class="columns short_container">
+                  <div class="column q-2-3">
+                    <p class="lead" data-splitting>
+                      We are passionate about uncovering the best digital
+                      innovations for forward—thinking minds looking to push
+                      boundaries and drive significant impact.
+                    </p>
+                  </div>
+                  <div class="column q-1-3 flex_end flex_right"></div>
+                </div>
+              </div>
+
+              <!-- ========= CAROUSEL ========= -->
+
+              <div class="q-container container-inner overflow menu_fade">
+                <div class="columns">
+                  <div class="column" style="position: relative">
+                    <div
+                      class="carousel reveal"
+                      data-scroll
+                      data-scroll-offset="0"
+                    >
+                      <div class="carousel__planes">
+                        <!--data-scroll data-scroll-speed="1" data-scroll-direction="horizontal"-->
+
+                        <!-- === SERVICE 1 === -->
+
+                        <div class="carousel__plane reveal_carousel">
+                          <div class="carousel__image" data-hover="Drag">
+                            <picture>
+                              <img
+                                src="assets/img/expertise/thumbs/sykaa-workforce.jpg"
+                              />
+                            </picture>
+                          </div>
+                          <a
+                            href="creations/sykaa-workforce.html"
+                            class="carousel__text"
+                            data-hover="None"
+                            data-color="var(--strategy-color)"
+                          >
+                            <h4>Sykaa <br />Workforce <sup>01</sup></h4>
+                            <p>
+                              Sykaa Insights &amp; Values, Holds Ethics, Made
+                              for People &amp; Community, Visionary Strategy
+                              &amp; Roadmapping.
+                            </p>
+                          </a>
+                        </div>
+
+                        <!-- === SERVICE 3 === -->
+
+                        <div class="carousel__plane reveal_carousel">
+                          <div class="carousel__image" data-hover="Drag">
+                            <picture>
+                              <img
+                                src="assets/img/expertise/thumbs/coding-architecture.jpg"
+                              />
+                            </picture>
+                          </div>
+                          <a
+                            href="creations/code-architecture.html"
+                            class="carousel__text"
+                            data-hover="None"
+                            data-color="var(--development-color)"
+                          >
+                            <h4>Coding <br />Architecture <sup>02</sup></h4>
+                            <p>
+                              Technical Discovery &amp; Architecture, Website
+                              Development, eCommerce, Mobile &amp; Web App
+                              Development, Sykaa Platforms.
+                            </p>
+                          </a>
+                        </div>
+
+                        <!-- === SERVICE 5 === -->
+
+                        <div class="carousel__plane reveal_carousel">
+                          <div class="carousel__image" data-hover="Drag">
+                            <picture>
+                              <img
+                                src="assets/img/expertise/thumbs/memorylane-productions.jpg"
+                              />
+                            </picture>
+                          </div>
+                          <a
+                            href="creations/memorylane-productions.html"
+                            class="carousel__text"
+                            data-hover="None"
+                            data-color="var(--marketing-color)"
+                          >
+                            <h4>MemoryLane <br />Productions <sup>03</sup></h4>
+                            <p>
+                              Campaign Development, Digital Productions &amp;
+                              Animations, Multi Topic Education, Education Media
+                              Management.
+                            </p>
+                          </a>
+                        </div>
+
+                        <!-- === SERVICE 6 === -->
+
+                        <div class="carousel__plane reveal_carousel">
+                          <div class="carousel__image" data-hover="Drag">
+                            <picture>
+                              <img
+                                src="assets/img/expertise/thumbs/exaquo-journels.jpg"
+                              />
+                            </picture>
+                          </div>
+                          <a
+                            href="creations/exaquo-journals.html"
+                            class="carousel__text"
+                            data-hover="None"
+                            data-color="var(--production-color)"
+                          >
+                            <h4>
+                              ExaQuo <br />
+                              Journals <sup>04</sup>
+                            </h4>
+                            <p>
+                              Script Direction, Articles, Blog Production,
+                              Creative Content &amp; Writing, Copywriting.
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="section" data-scroll-section></section>
+
+            <section
+              class="section no-p light-grey img_brightness"
+              data-scroll-section
+            >
+              <div
+                class="offset_banner reveal"
+                style="background-color: #000"
+                data-scroll
+              >
+                <div class="image_reveal">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="/assets/img/home/about_banner.webp"
+                    />
+                    <img
+                      data-scroll
+                      data-scroll-speed="-3"
+                      src="assets/img/home/about_banner.jpg"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </section>
+
+            <section class="section small-pt light-grey" data-scroll-section>
+              <div class="q-container container-inner">
+                <div
+                  class="columns menu_fade short_container"
+                  data-scroll
+                  data-scroll-call="revStag"
+                  data-scroll-offset="10%"
+                >
+                  <div class="column q-1-3"></div>
+                  <div class="column q-2-3">
+                    <div>
+                      <h3 data-splitting>
+                        We are one of the rare communities that transcends
+                        boundaries, where every member is equal and every voice
+                        is heard.
+                      </h3>
+                      <p class="lead" data-splitting>
+                        We've worked incredibly hard to build a community of
+                        passionate techies who share a common goal: to make a
+                        positive impact in the world. At TEVx, we've leveraged
+                        our skills and expertise to create innovative solutions
+                        that empower people and drive progress. We've worked
+                        incredibly hard to establish ourselves as a community of
+                        change-makers in the tech industry, and we're just
+                        getting started.<br /><br />
+                      </p>
+                      <a class="magnet"
+                        ><span data-splitting>Visit Sykaa</span>
+                        <span class="magnet_circle"
+                          ><span class="magnet_arrow">&#8594;</span></span
+                        ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section
+              class="section trails long"
+              id="trails"
+              data-scroll-section
+            >
+              <div class="q-container container-inner menu_fade">
+                <div class="columns short_container">
+                  <div class="column" data-scroll data-scroll-speed="-4">
+                    <h6 class="font_caps">/ Ecosystem</h6>
+                    <h2 class="lead">
+                      We help communities<br />all around the world <br />to
+                      grow.
+                    </h2>
+                </div>
+              </div>
+            </section>
+
+            <!-- ========= CORE VALUES ========= -->
+
+            <section class="section grey color_pink" data-scroll-section>
+              <div class="q-container container-inner">
+                <div
+                  class="columns"
+                  data-scroll
+                  data-scroll-call="revStag"
+                  data-scroll-offset="30%"
+                >
+                  <div class="column q-1-3 flex_right">
+                    <div
+                      class="ornament static"
+                      data-scroll
+                      data-scroll-speed="-0.3"
+                      data-scroll-offset="-100%,-200%"
+                    >
+                      <img
+                        src="assets/img/general/ornament.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="column q-2-3 menu_fade">
+                    <h6 class="font_caps" data-splitting>/ Our Values</h6>
+                    <h3 data-splitting>
+                      At the heart of everything<br />
+                      We are the child of Sykaa,<br />
+                      Build by the people.
+                    </h3>
+                    <p class="lead" data-splitting>
+                      Our Creations empower all people around the world to share
+                      ideas, offer support and make a difference in their
+                      journey.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section
+              class="section grey color_pink no-pt work_images variant large-pb img_brightness"
+              data-scroll-section
+            >
+              <div class="q-container container-inner">
+                <div class="columns">
+                  <!-- === CORE VALUE 1 === -->
+
+                  <div class="column q-1-2">
+                    <div class="half_image image_zoom_wrapper">
+                      <div class="image_zoom">
+                        <picture>
+                          <img
+                            data-scroll
+                            data-scroll-speed="-4"
+                            src="assets/img/about/value1.jpg"
+                          />
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="work_caption">
+                      <span class="client">Your Voice</span>
+                      <span class="line_sep"></span>
+                    </div>
+                    <h4>Speaking up and getting help.</h4>
+                    <p class="desc">
+                      Speaking up is important if you see or suspect a violation
+                      of the law, this Code or any of Sykaa's policies. You
+                      don’t need to have all the information or details to ask
+                      questions or speak up. You should feel comfortable asking
+                      a question or reporting a concern using whatever channel
+                      or resource you prefer.
+                    </p>
+                  </div>
+
+                  <!-- === CORE VALUE 2 === -->
+
+                  <div class="column q-1-2" data-scroll data-scroll-speed="-2">
+                    <div class="half_image image_zoom_wrapper">
+                      <div class="image_zoom">
+                        <picture>
+                          <img
+                            data-scroll
+                            data-scroll-speed="-1"
+                            src="assets/img/about/value2.jpg"
+                          />
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="work_caption">
+                      <span class="client">Embracing diversity</span>
+                      <span class="line_sep"></span>
+                    </div>
+                    <h4>Diversity, equity and inclusion.</h4>
+                    <p class="desc">
+                      We are committed to building a diverse, equitable and
+                      inclusive workplace in which everyone feels like they
+                      belong and are empowered to bring their authentic self to
+                      work.
+                    </p>
+                  </div>
+                </div>
+                <div class="columns">
+                  <!-- === CORE VALUE 3 === -->
+
+                  <div class="column q-1-2">
+                    <div class="half_image image_zoom_wrapper">
+                      <div class="image_zoom">
+                        <picture>
+                          <img
+                            data-scroll
+                            data-scroll-speed="-3"
+                            src="assets/img/about/value3.jpg"
+                          />
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="work_caption">
+                      <span class="client">Safeguarding Community</span>
+                      <span class="line_sep"></span>
+                    </div>
+                    <h4>Safeguarding People's assets.</h4>
+                    <p class="desc">
+                      We responsibly use and protect Sykaa's along with your
+                      assets and resources, so we can create real value for the
+                      world.
+                    </p>
+                  </div>
+
+                  <!-- === CORE VALUE 4 === -->
+
+                  <div class="column q-1-2" data-scroll data-scroll-speed="-2">
+                    <div class="half_image image_zoom_wrapper">
+                      <div class="image_zoom">
+                        <picture>
+                          <img
+                            data-scroll
+                            data-scroll-speed="-1"
+                            src="assets/img/about/value4.jpg"
+                          />
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="work_caption">
+                      <span class="client">Creating World</span>
+                      <span class="line_sep"></span>
+                    </div>
+                    <h4>Build a more Creative and Sustainable World.</h4>
+                    <p class="desc">
+                      We won’t always get it right, so we invite people to
+                      appeal our content decisions. We also track and share our
+                      progress in making Sykaa's services safer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </main>
+
+          
+      </div>
+    </div>
+  </body>
+</html>
