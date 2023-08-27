@@ -17,7 +17,8 @@ p {
   margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 100;
 }
 
@@ -31,27 +32,27 @@ a {
 }
 
 .title {
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   font-weight: 100;
   margin: 0;
-  transition: .5s;
+  transition: 0.5s;
   font-size: calc(22px + (32 - 22) * (100vw - 400px) / (1600 - 400));
 }
 
-a .title:after{
-  content: '';
-  transition: .5s;
+a .title:after {
+  content: "";
+  transition: 0.5s;
   width: 95%;
   transform: scaleX(0);
   position: absolute;
   bottom: -10px;
-  left: 0;  
+  left: 0;
   border: 1px solid;
-  height: 0;  
+  height: 0;
 }
 
-.menu__overlay .title:hover:after{
-  content: '';
+.menu__overlay .title:hover:after {
+  content: "";
   transform: scaleX(1);
 }
 
@@ -64,8 +65,8 @@ a .title:after{
   cursor: pointer;
 }
 .menu__legal {
-  opacity: .5;
-  transform: scale(.7);
+  opacity: 0.5;
+  transform: scale(0.7);
   display: flex;
 }
 .menu__legal a {
@@ -93,7 +94,7 @@ header {
   transform-origin: 0% 50%;
   transform: rotate(-90deg) translateX(-50%);
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 .menu {
@@ -109,14 +110,14 @@ header {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   z-index: 1000;
   cursor: pointer;
 }
 
 .menu:hover {
   background: #324cab;
-  transition: .2s;
+  transition: 0.2s;
 }
 .menu__line {
   postion: relative;
@@ -124,7 +125,7 @@ header {
   height: 2px;
   margin: 2px 0;
   background: white;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .darkMode .menu {
@@ -135,10 +136,9 @@ header {
   background: black;
 }
 
-
 .menu__overlay {
   opacity: 0;
-  transition: .5s opacity;
+  transition: 0.5s opacity;
   position: fixed;
   left: 0;
   top: 0;
@@ -156,7 +156,7 @@ header {
 }
 
 .is-menu .menu__overlay {
-  opacity: .94;
+  opacity: 0.94;
   pointer-events: auto;
   transform: translateX(0);
 }
@@ -215,14 +215,13 @@ canvas {
   }
 }
 
-
 /* LOCATIONS */
 
 .page__title {
   margin: 80px 0 100px;
 }
 @media (min-width: 800px) {
- .page__title {
+  .page__title {
     margin: 40px 0;
   }
 }
@@ -246,7 +245,7 @@ canvas {
 }
 
 .artistSlider__image img {
-  width: 100%;  
+  width: 100%;
 }
 
 .artistSlider__meta {
@@ -340,7 +339,12 @@ canvas {
   letter-spacing: 0;
   padding: 0 calc(7vw + 45px);
   color: #de86f5;
-  background: -webkit-linear-gradient(-40deg, #2740ff 30%, #ddebf4 50%,  #ee66c5 70%);
+  background: -webkit-linear-gradient(
+    -40deg,
+    #2740ff 30%,
+    #ddebf4 50%,
+    #ee66c5 70%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
